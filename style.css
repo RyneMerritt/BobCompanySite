@@ -6,35 +6,35 @@ figure.banner {
 }
 
 ul.navbar {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 ul.navbar li{
-float: left;
+    float: left;
 }
 
 ul.navbar li a {
-font-family: Arial, Helvetica, sans-serif;
-display: block;
-color: white;
-text-align: center;
-padding: 14px 150px;
-text-decoration: none;
-font-size: 19px
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 150px;
+    text-decoration: none;
+    font-size: 19px;
 }
 
 ul.navbar li a:hover {
-background-color: #111;
+    background-color: #111;
 }
 
 ul.navbar li a.active {
-background-color: white;
-color: black;
-font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul.image-container{
@@ -70,14 +70,48 @@ h2{
     color: gray
 }
 
-h3{
-    display:inline-block;
+h3.contact{
+    display: flex;
+    align-items: center;
     padding-right: 30px;
     padding-left: 80px;
     font-family: Arial, Helvetica, sans-serif;
-    color: gray
+    color: gray;
+    justify-content: center;
 }
 
 body{
     background-color: black;
+}
+
+footer {
+    display: flex;
+    align-items: center; 
+    background-color: #3A3B3C;
+    justify-content: center;
+}
+
+footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: white;
+    padding: 22px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer .media-container {
+    background-color: #3A3B3C;
+    padding: 10px;
+    margin: 0px;
+}
+
+footer a.media {
+    margin-left: 10px;
+}
+
+footer.copyright {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
 }
