@@ -1,0 +1,83 @@
+figure.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+ul.navbar {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+ul.navbar li{
+float: left;
+}
+
+ul.navbar li a {
+font-family: Arial, Helvetica, sans-serif;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 150px;
+text-decoration: none;
+font-size: 19px
+}
+
+ul.navbar li a:hover {
+background-color: #111;
+}
+
+ul.navbar li a.active {
+background-color: white;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+ul.image-container figure{
+    margin: 10px;
+    text-align: center;
+}
+
+ul.image-container figcaption{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    display:inline-block;
+    padding-right: 30px;
+    padding-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #28282B;
+    color: gray
+}
+
+h3{
+    display:inline-block;
+    padding-right: 30px;
+    padding-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray
+}
+
+body{
+    background-color: black;
+}
