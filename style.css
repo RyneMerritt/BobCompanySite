@@ -3,6 +3,18 @@
     src: url(./fonter.ttf);
   }
 
+  @font-face {
+    font-family: fonterBOLD;
+    src: url(./fonterBOLD.ttf);
+  }
+
+a.BOLD {
+    color: rgb(100, 110, 255);
+    text-align: center;
+    font-family: fonterBOLD;
+    font-size: 40px;
+}
+
 figure.banner {
     display: flex;
     flex-wrap: wrap;
@@ -109,6 +121,10 @@ footer a {
     font-size: 20px;
     text-decoration: none;
     margin-bottom: 20px;
+}
+
+footer a:hover {
+    color:#111;
 }
 
 footer .media-container {
