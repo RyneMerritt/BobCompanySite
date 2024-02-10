@@ -22,39 +22,6 @@ figure.banner {
     padding: 0;
 }
 
-
-ul.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-ul.navbar li{
-    float: left;
-}
-
-ul.navbar li a {
-    font-family: fonter;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 150px;
-    text-decoration: none;
-    font-size: 19px;
-}
-
-ul.navbar li a:hover {
-    background-color: #111;
-}
-
-ul.navbar li a.active {
-    background-color: white;
-    color: black;
-    font-family: fonter;
-}
-
 ul.image-container{
     display: flex;
     flex-wrap: wrap;
@@ -131,7 +98,7 @@ footer .media-container {
     background-color: #3A3B3C;
     padding: 0px;
     margin: 0px;
-    margin-left: 2px;
+    margin-left: 20px;
     margin-top: 2px;
     margin-bottom: 2px;
 }
@@ -167,4 +134,54 @@ footer.copyright {
     outline-color: rgba(255, 255, 255, 0);
     outline-offset: 15px;
     text-shadow: 1px 1px 2px #427388; 
+  }
+  
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar li a {
+    font-family: fonter;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 150px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.navbar li a.active {
+    background-color: white;
+    color: black;
+    font-family: fonter;
+}
+
+
+ul.c{
+    list-style-type: none;
+    color:white;
+  }
+  
+.accordcontent li a {
+    text-decoration: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .8s;
+  }
+  
+nav section:hover > .accordcontent {
+    max-height: 100px;
+    color:white;
   }
