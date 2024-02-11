@@ -168,20 +168,3 @@ footer.copyright {
     font-family: fonter;
 }
 
-
-ul.c{
-    list-style-type: none;
-    color:white;
-  }
-  
-.accordcontent li a {
-    text-decoration: none;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height .8s;
-  }
-  
-nav section:hover > .accordcontent {
-    max-height: 100px;
-    color:white;
-  }
